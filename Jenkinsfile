@@ -1,7 +1,7 @@
 node {
     stage ('SCM')
     {
-       git 'https://github.com/spring-projects/spring-petclinic.git' 
+       git 'https://github.com/sivasrinu52/spring-petclinic.git' 
     }
     stage ('build the package')
     {
